@@ -11,14 +11,12 @@
             "id": "62bf358bf3a58ae0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/mikayil.jpeg"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-image",
+              "title": "mikayil"
             }
           }
         ]
@@ -185,10 +183,11 @@
   },
   "active": "62bf358bf3a58ae0",
   "lastOpenFiles": [
+    "README.md",
+    "instructions.pdf",
+    "index.md",
     "_site/assets/mikayil.jpeg",
     "assets/mikayil.jpeg",
-    "assets",
-    "instructions.pdf",
-    "index.md"
+    "assets"
   ]
 }
