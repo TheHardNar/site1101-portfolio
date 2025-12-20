@@ -18,14 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Mikayil's portfolioooo
+title: Mikayil's portfolio
 email: contact.mikayil@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A very good description for a portfolio site. 👍
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "w1nternar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-codeacademy_username: tag2412587884
+
 github_username:  w1nternar
+instagram_username: w1nternar
+codeacademy_username: tag2412587884
 
 
 # Navbar menu

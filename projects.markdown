@@ -5,6 +5,11 @@
 layout: default
 
 ---
+# SITE 1101 Project 1
+### In this project, we played with logic gates, basically the “yes/no” brains of computers. Using gates like AND, OR, and NOT, we made tiny circuits that decide things using only 0s and 1s. It turns out computers think very simply… just very fast.
+![Image](/assets/project1.png)
+> Link to the video: [https://www.youtube.com/watch?v=_H0CM-iTjyQ](https://www.youtube.com/watch?v=_H0CM-iTjyQ)
+
 # Color info
 ### Website which gives you names to a random color. Also, you can save any color and access it later
 ![Image](/assets/colorinfo.png)
