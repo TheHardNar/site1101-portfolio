@@ -1,0 +1,22 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path d="M18,1.484 L18,6 C18,7.657 16.343,9 15,9 L3,9 C1.657,9 0,7.657 0,6 L0,1.484 C0,0.665 0.645,0 1.484,0 L16.516,0 C17.335,0 18,0.645 18,1.484 L18,1.484 Z" fill="currentColor"/>
+            <path d="M18,7.516 L18,12 C18,13.657 16.343,15 15,15 L3,15 C1.657,15 0,13.657 0,12 L0,7.516 C0,6.665 0.645,6 1.484,6 L16.516,6 C17.335,6 18,6.645 18,7.516 L18,7.516 Z" fill="currentColor"/>
+          </svg>
+        </span>
+      </label>
+
+      <div class="trigger">
+        {%- for path in site.header_menu -%}
+          <a class="page-link" href="{{ path.url | relative_url }}">{{ path.title }}</a>
+        {%- endfor -%}
+      </div>
+    </nav>
+  </div>
+</header>
